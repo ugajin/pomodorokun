@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "pomodoror"
+
+Pomodoror::CLI.start
