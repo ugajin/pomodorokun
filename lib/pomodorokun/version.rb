@@ -1,3 +1,3 @@
-module Pomodoror
+module Pomodorokun
   VERSION = "0.1.0"
 end

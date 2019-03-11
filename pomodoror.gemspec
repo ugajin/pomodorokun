@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "pomodoror/version"
+require "pomodorokun/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "pomodoror"
+  spec.name          = "pomodorokun"
   spec.version       = Pomodoror::VERSION
   spec.authors       = ["ugajin"]
   spec.email         = ["t.ugajin0804@gmail.com"]
 
   spec.summary       = "it support pomodoro technique"
   spec.description   = "it support pomodoro technique (e.g. timer, alert, etc.)"
-  spec.homepage      = "https://github.com/ugajin/pomodoror"
+  spec.homepage      = "https://github.com/ugajin/pomodorokun"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/ugajin/pomodoror"
-    spec.metadata["changelog_uri"] = "https://github.com/ugajin/pomodoror/wiki"
+    spec.metadata["source_code_uri"] = "https://github.com/ugajin/pomodorokun"
+    spec.metadata["changelog_uri"] = "https://github.com/ugajin/pomodorokun/wiki"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
