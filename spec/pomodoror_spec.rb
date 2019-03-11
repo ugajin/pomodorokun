@@ -1,6 +1,6 @@
-RSpec.describe Pomodoror do
+RSpec.describe Pomodorokun do
   it "has a version number" do
-    expect(Pomodoror::VERSION).not_to be nil
+    expect(Pomodorokun::VERSION).not_to be nil
   end
 
   it "does something useful" do

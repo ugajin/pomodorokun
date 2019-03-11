@@ -2,4 +2,4 @@
 
 require "pomodorokun"
 
-Pomodoror::CLI.start
+Pomodorokun::CLI.start

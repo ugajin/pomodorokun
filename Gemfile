@@ -1,4 +1,7 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in pomodoror.gemspec
+# command-line interfaces
+gem 'thor'
+
+# Specify your gem's dependencies in pomodorokun.gemspec
 gemspec
