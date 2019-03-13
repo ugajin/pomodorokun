@@ -6,7 +6,7 @@ module Pomodorokun
   class CLI < Thor
     desc "start", "pomodorokun start"
     def start
-      Taimukun.start_work
+      Taimukun.start_working
     end
   end
 end
