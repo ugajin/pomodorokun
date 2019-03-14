@@ -11,7 +11,7 @@ On install it yourself as:
 
 When you start work:
 
-  $ pomodorokun start
+    $ pomodorokun start
 
 Please enter "^ C" when you are done.
 
